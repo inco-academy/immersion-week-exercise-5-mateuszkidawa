@@ -1,5 +1,14 @@
-const square = document.getElementById("square");
+const square =
+  document.getElementById("square");
 
-square.addEventListener("pointerover", () => square.style.backgroundColor="red")
+square.addEventListener(
+  "pointerover",
+  () =>
+    (square.style.backgroundColor = "red")
+);
 
-square.addEventListener("pointerout", () => square.style.backgroundColor="blue")
+square.addEventListener(
+  "pointerout",
+  () =>
+    (square.style.backgroundColor = "blue")
+);
